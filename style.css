@@ -67,8 +67,15 @@ li{
     color: #fff;
 }
 
+.card ul{
+    text-align: left;
+    margin-top: 50px;
+}
 
-
+.card ul li i{
+    color: rgb(95, 159, 0);
+    margin-right: 10px;
+}
 
 
 
