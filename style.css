@@ -34,7 +34,7 @@ li{
 .pricing{
     display: flex;
     /* justify-content: space-around; */
-    gap: 20px;
+    gap: 20px; 
 
 }
 
@@ -44,7 +44,34 @@ li{
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
+
+.card h2{
+    background-color: rgb(236, 245, 245);
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card-pro h2{
+    background: linear-gradient(90deg
+    , rgba(194, 227, 255, 1) 13%, rgba(180, 118, 254, 1) 100%) ;
+    color: #fff;
+}
+.card-enterprise h2{
+    background: linear-gradient(90deg
+    , rgba(255, 177, 194, 1) 13%, rgba(255, 203, 114, 1) 100%) ;
+    color: #fff;
+}
+
+
+
+
+
+
+
 
 
