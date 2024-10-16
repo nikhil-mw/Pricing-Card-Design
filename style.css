@@ -33,9 +33,10 @@ li{
 
 .pricing{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     gap: 22px; 
     margin: 18px;
+    flex-wrap: wrap;
 
 }
 
@@ -133,6 +134,13 @@ li{
 .card-pro .btn:hover{
     background-color: #fff;
     color: #007bff;
+}
+.h{
+    font-size: 35px;
+    text-align: center;
+    margin-top: -10px;
+    font-family: 'Righteous', sans-serif;
+    color: #0d0d3f;
 }
 
 
